@@ -1,0 +1,11 @@
+LOCAL_PATH:= $(call my-dir)
+include $(CLEAR_VARS)
+
+LOCAL_MODULE := OPOIcon.apk
+LOCAL_MODULE_STEM := OPOIcon.apk
+LOCAL_SRC_FILES := OPOIcon.apk
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/app/OPOIcon
+
+include $(BUILD_PREBUILT)
